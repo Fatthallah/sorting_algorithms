@@ -9,21 +9,6 @@
 #define DOWN 1
 
 
-
-/**
- * enum bool - comment
- * @false: comment
- * @true: comment
- */
- 
-typedef enum bool
-{
-	false = 0,
-	true
-} bool;
-
-
-
 /**
  * struct listint_s - comment
  * @n: comment
@@ -37,6 +22,20 @@ typedef struct listint_s
 	struct listint_s *prev;
 	struct listint_s *next;
 } listint_t;
+
+
+
+/**
+ * enum bool - comment
+ * @false: comment
+ * @true: comment
+ */
+ 
+typedef enum bool
+{
+	false = 0,
+	true
+} bool;
 
 
 
